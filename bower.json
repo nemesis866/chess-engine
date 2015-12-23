@@ -1,0 +1,28 @@
+{
+  "name": "chess-engine",
+  "description": "Motor de ajedrez para el nuevo proyecto",
+  "main": "gulpfile.js",
+  "moduleType": [],
+  "keywords": [
+    "chess",
+    "ajedres",
+    "engine",
+    "motor"
+  ],
+  "authors": [
+    "Paulo Andrade"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.2.3"
+  }
+}

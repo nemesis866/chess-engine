@@ -1,0 +1,102 @@
+/* Contenedor del juego */
+#board-goes-here
+{
+    background-color: #666;
+    border-radius: 5px;
+    color: #fcfcfc;
+    padding: 10px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.p4wn-board table{
+  border-spacing: 1px;
+}
+
+.p4wn-board td{
+  padding: 1px;
+}
+
+.p4wn-white-square {
+    /* background-color: #ccc; */
+    background-color: #FACB87;
+}
+
+.p4wn-black-square {
+    /* background-color:#888; */
+    background-color: #67261A;
+}
+
+/* Contenedor de los elementos del tablero */
+.p4wn-board
+{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    width: 60%;
+}
+
+/* Sub contenedor de p4wn-board */
+.p4wn-board-content
+{
+    
+}
+
+/* Contenedor de los movimientos del juego */
+.p4wn-log
+{
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    color: #222;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 16px;
+    white-space: pre;
+    width: 20%;
+    overflow: auto;
+    vertical-align: top;
+}
+
+/* Sub contenedor de p4wn-log */
+.p4wn-log-container
+{
+    
+}
+
+/* Contenedor de los controles del juego */
+.p4wn-controls
+{
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    color: #222;
+    display: inline-block;
+    font-size: 16px;
+    width: 20px;
+    vertical-align: top;
+}
+
+/* Sub contenedor de p4wn-log */
+.p4wn-controls-container
+{
+    
+}
+
+.p4wn-control-button {
+  padding: 0px 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-block;
+  margin: 1px;
+}
+
+.p4wn-log-move {
+  padding: 0px 7px;
+  cursor: pointer;
+}
+
+/* Contenedor de los componentes del juego */
+.p4wn-wrapper
+{
+    font-size: 0;
+    width: 100%;
+}

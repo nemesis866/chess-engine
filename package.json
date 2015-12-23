@@ -1,0 +1,35 @@
+{
+  "name": "chess-engine",
+  "version": "1.0.0",
+  "description": "Motor de ajedrez para e�l nuevo proyecto",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm i -g bower",
+    "postinstall": "bower install",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nemesis866@github.com/nemesis866/chess-engine.git"
+  },
+  "keywords": [
+    "chess",
+    "engine",
+    "ajedrez",
+    "motor"
+  ],
+  "author": "Paulo Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nemesis866/chess-engine/issues"
+  },
+  "homepage": "https://github.com/nemesis866/chess-engine#readme",
+  "devDependencies": {
+    "connect-history-api-fallback": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-inject": "^3.0.0",
+    "wiredep": "^3.0.0"
+  }
+}

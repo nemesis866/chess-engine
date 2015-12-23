@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo basado en el motor p4wn</title>
+    <link rel="stylesheet" href="styles/p4wn.css">
+</head>
+<body>
+    <!-- Put anything you like here... -->
+
+    <div id="board-goes-here"></div>
+
+    <!-- ...and here -->
+
+    <script src="scripts/engine-p4wn.js"></script>
+    <script src="scripts/display-p4wn.js"></script>
+    <script>
+    var game = p4wnify("board-goes-here");
+    game.next_move();
+    </script>
+</body>
+</html>
